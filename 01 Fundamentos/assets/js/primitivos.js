@@ -29,4 +29,21 @@ edad=33.01;
 console.log(typeof edad);
 
 //Usando camelCase que es definir el nombre de la variable que 
-// estén conformadas por distintas palabras 
+// estén conformadas por distintas palabras
+let superPoder;
+console.log(typeof superPoder);
+
+//Declarando variable null
+let soyNull = null;
+console.log(typeof soyNull);
+
+//Deckarando variable Symbol
+
+let symbol1 = Symbol("a");
+console.log(typeof symbol1);
+let symbol2 = Symbol("a");
+console.log(typeof symbol2);
+
+//Mostrando que todas las variables symbol a pesar de tener el mismo contenido o valor
+// siempre las variables de tipo symbol son únicas. 
+console.log(symbol1===symbol2);
